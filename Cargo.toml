@@ -1,0 +1,12 @@
+[package]
+name = "qoi-gpu"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "1.12.1"
+gpgpu = { git = "https://github.com/feyko/gpgpu-rs", features = ["integrate-image"] }
+image = "0.24.3"
+rapid-qoi = "0.6.1"
